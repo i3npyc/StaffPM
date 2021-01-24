@@ -1,7 +1,15 @@
 function email_test(input) {
 	return !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,8})+$/.test(input.value);
 }
+$('.main').on('mousemove', (e) => {
+	const x = e.pageX / $(window).width();
+	const y = e.pageY / $(window).height();
 
+	$('.parallax').css(
+		'transform',
+		'translate(-' + x * 25 + 'px, -' + y * 25 + 'px)'
+	);
+});
 var ua = window.navigator.userAgent;
 var msie = ua.indexOf("MSIE ");
 var isMobile = { Android: function () { return navigator.userAgent.match(/Android/i); }, BlackBerry: function () { return navigator.userAgent.match(/BlackBerry/i); }, iOS: function () { return navigator.userAgent.match(/iPhone|iPad|iPod/i); }, Opera: function () { return navigator.userAgent.match(/Opera Mini/i); }, Windows: function () { return navigator.userAgent.match(/IEMobile/i); }, any: function () { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); } };
@@ -60,6 +68,7 @@ if (location.hash) {
 }
 //=================
 //Menu
+let MenuNav = document.querySelector(".header-menu__link");
 let iconMenu = document.querySelector(".icon-header");
 if (iconMenu != null) {
 	let delay = 500;

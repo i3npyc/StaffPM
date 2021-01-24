@@ -1,0 +1,24 @@
+<svg width="42" height="53" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="56" width="54" y="0" x="0" id="filter0_d">
+   <feGaussianBlur stdDeviation="3.5"/>
+  </filter>
+  <clipPath id="clip0">
+   <rect id="svg_1" x="29.107889" y="19.1001" transform="rotate(90 29.10788917541504,19.100099563598636) " fill="white" height="16" width="16"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="55" width="44" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_2" filter="url(#filter0_d)">
+   <circle id="svg_3" fill="#BD335D" r="20" cy="27.5" cx="21.107889"/>
+   <circle id="svg_4" fill="#E83D71" r="20" cy="25.5" cx="21.107889"/>
+   <g id="svg_5" clip-path="url(#clip0)">
+    <path id="svg_6" fill="white" d="m21.732189,31.5445l7.1201,-7.1202c0.1648,-0.1646 0.2556,-0.3845 0.2556,-0.6189c0,-0.2344 -0.0908,-0.4542 -0.2556,-0.6189l-0.5242,-0.5244c-0.3416,-0.3412 -0.8968,-0.3412 -1.2379,0l-5.979,5.9791l-5.9856,-5.9857c-0.1648,-0.1647 -0.3845,-0.2556 -0.6188,-0.2556c-0.2346,0 -0.4543,0.0909 -0.6192,0.2556l-0.5241,0.5244c-0.1648,0.1648 -0.2556,0.3845 -0.2556,0.6189c0,0.2344 0.0908,0.4542 0.2556,0.6189l7.1266,7.1268c0.1653,0.1651 0.3861,0.2558 0.6207,0.2553c0.2356,0.0005 0.4562,-0.0902 0.6214,-0.2553z"/>
+   </g>
+  </g>
+ </g>
+</svg>
