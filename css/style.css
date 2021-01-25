@@ -1175,10 +1175,6 @@ body._lock {
   letter-spacing: 0.02em;
 }
 
-.container-training {
-  padding: 200px 0px 0px 0px;
-}
-
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -5345,6 +5341,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
           flex: 0 0 100%;
 }
 
+.main__container {
+  padding: 245px 0px 0px 0px;
+}
+
 .main__body {
   padding: 0px 0px 267px 0px;
   width: 660px;
@@ -7208,10 +7208,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     color: #262525;
   }
 
-  .container-training {
-    padding: 120px 0px 0px 0px;
-  }
-
   ._container {
     max-width: 750px;
   }
@@ -7758,6 +7754,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .footer__politics {
     margin: 0px 0px 25px 0px;
+  }
+
+  .main__container {
+    padding: 120px 0px 0px 0px;
   }
 
   .main__body {
@@ -8660,10 +8660,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-size: 25px;
   }
 
-  .container-training {
-    padding: 90px 15px 0px 15px;
-  }
-
   ._container {
     max-width: none;
     padding: 0 15px;
@@ -8991,6 +8987,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .footer__lz-text {
     margin: 0px 0px 2px 0px;
     font-size: 12px;
+  }
+
+  .main__container {
+    padding: 90px 15px 0px 15px;
   }
 
   .main__body {
