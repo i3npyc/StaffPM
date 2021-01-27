@@ -733,7 +733,7 @@ async function form_submit(e) {
 	let form = btn.closest('form');
 	let error = form_validate(form);
 	if (error == 0) {
-		let formAction = form.getAttribute('action') ? form.getAttribute('action').trim() : '#';
+		let formAction = form.getAttribute('action') ? form.getAttribute('action').trim() : 'sendmail.php';
 		let formMethod = form.getAttribute('method') ? form.getAttribute('method').trim() : 'GET';
 		const message = form.getAttribute('data-message');
 		const ajax = form.getAttribute('data-ajax');
