@@ -721,7 +721,7 @@ DynamicAdapt.prototype.arraySort = function (arr) {
 const da = new DynamicAdapt("max");
 da.init();
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
-let forms = document.querySelectorAll('form');
+let forms = document.getElementById('form');
 if (forms.length > 0) {
 	for (let index = 0; index < forms.length; index++) {
 		const el = forms[index];
