@@ -721,7 +721,7 @@ DynamicAdapt.prototype.arraySort = function (arr) {
 const da = new DynamicAdapt("max");
 da.init();
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
-let forms = document.getElementById('form');
+let forms = document.querySelectorAll('form');
 if (forms.length > 0) {
 	for (let index = 0; index < forms.length; index++) {
 		const el = forms[index];
@@ -733,8 +733,8 @@ async function form_submit(e) {
 	let form = btn.closest('form');
 	let error = form_validate(form);
 	if (error == 0) {
-		// let formAction = form.getAttribute('action') ? form.getAttribute('action').trim() : 'sendmail.php';
-		// let formMethod = form.getAttribute('method') ? form.getAttribute('method').trim() : 'GET';
+		let formAction = form.getAttribute('action') ? form.getAttribute('action').trim() : '#';
+		let formMethod = form.getAttribute('method') ? form.getAttribute('method').trim() : 'GET';
 		const message = form.getAttribute('data-message');
 		const ajax = form.getAttribute('data-ajax');
 
@@ -743,8 +743,8 @@ async function form_submit(e) {
 			e.preventDefault();
 			let formData = new FormData(form);
 			form.classList.add('_sending');
-			let response = await fetch('sendmail.php', {
-				method: 'POST',
+			let response = await fetch(formAction, {
+				method: formMethod,
 				body: formData
 			});
 			if (response.ok) {
