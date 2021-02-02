@@ -8450,9 +8450,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     padding: 20px 20px 27px 20px;
   }
 
+  .popup__body.--video {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .popup__close.--video {
+    display: none;
+  }
+
   .popup__video {
     padding: 0px 0px 0px 0px;
-    width: 100px;
   }
 
   .callback__form-title {
@@ -8702,9 +8709,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     padding: 20px 20px 27px 20px;
   }
 
+  .popup__body.--video {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .popup__close.--video {
+    display: none;
+  }
+
   .popup__video {
     padding: 0px 0px 0px 0px;
-    width: 100px;
   }
 
   .callback__form-title {
